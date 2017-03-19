@@ -1,0 +1,23 @@
+.primary {
+
+}
+
+.secondary {
+background-color: #464646;
+}
+
+
+.blue {
+	background: blue;
+}
+
+.red {
+	background: red;
+}
+
+
+/* Text */
+
+.text-white {
+	color: #fff;
+}
