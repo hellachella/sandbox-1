@@ -5,38 +5,37 @@
 .nav {
 	height: 100vh;
 	font-family: 'Martel Sans', sans-serif;
-	background-image: url("../images/oiaf-dive.jpg");
+	background-image: url("../images/illustration-isometric.jpg");
 	background-position: top center;
 	background-size: cover;
-	background-blend-mode: multiply;
-	background-color: #464646;
 
+	background-color: #464646;
+	background-repeat: no-repeat;
   animation: hero 80000ms alternate-reverse linear;
 }
 
 @keyframes hero {
 	0% {
 		background-position: bottom center;
-				background-size: 80%;
+
 	}
 
 	100% {
 		background-position: top center;
-
 	}
 }
 
-
 .logo-splash {
-	min-width: 70%;
-	opacity: .1;
+	min-width: 100px;
+	opacity: .3;
 }
 
 .logo-splash:hover {
 
 	opacity: .9;
 	filter:blur(5px);
-animation: logo 300ms forwards;
+
+	animation: logo 300ms forwards;
 }
 
 @keyframes logo {
